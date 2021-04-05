@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const connection = require('./database/database');
 const pergunta = require('./database/Pergunta');
 const Pergunta = require('./database/Pergunta');
+const Resposta = require('./database/Resposta');
 
 //database
 connection
